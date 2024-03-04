@@ -20,9 +20,6 @@ export class navMenu extends HTMLElement{
                     <a class="nav-link active" href="#" data-verocultar='["c"]' aria-current="page" >Crear Tareas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" data-verocultar='["ps"]'>Editar Tareas</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#" data-verocultar='["v"]'>Tareas Realizadas</a>
                 </li>
                 <li class="nav-item">

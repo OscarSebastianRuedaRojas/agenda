@@ -1,0 +1,20 @@
+{
+  "tareas": [
+    {
+      "id": "3373",
+      "nombreTarea": "Trabajo",
+      "fechaInicio": "2024-03-03",
+      "fechaFinal": "2024-03-04",
+      "Responsable": "Sebastian",
+      "dificultad": "mediano"
+    },
+    {
+      "id": "0eee",
+      "nombreTarea": "Trabajo2",
+      "fechaInicio": "2024-03-03",
+      "fechaFinal": "2024-03-04",
+      "Responsable": "SebastianRueda",
+      "dificultad": "dificil"
+    }
+  ]
+}
