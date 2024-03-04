@@ -1,20 +1,15 @@
 import { getProducts } from '../../../Apis/tareas/tareasApi.js';
-import {seleccion} from "/App/Components/clasificacion/clasificacion.js"
-export class tareasAsignadas extends HTMLElement {
+export class tareasRealizadas extends HTMLElement {
     constructor() {
         super();
         this.render();
     }
-
     async render() {
         try {
             const datos = await getProducts();
             datos.forEach(tarea => {
-                if(tarea?.seleccion==='Pendiente'){
+                if(tarea?.seleccion===true){
                     this.innerHTML += /* HTML */`
-                <style rel="stylesheet">
-                    @import "App/Components/TareasAsignadas/tareaStyle.css";
-                </style>
                     <div class="card">
                         <div class="row">
                             <div class="col">
@@ -43,23 +38,18 @@ export class tareasAsignadas extends HTMLElement {
                                 <p>${tarea.dificultad}</p>
                             </div>
                             <div class="col">
-                                <div class="cajitaIconos">
-                                    <i class='bx bxs-check-square acabada' id = ${tarea.id}></i>
-                                    <i class='bx bxs-checkbox-minus fallida' id = ${tarea.id}></i>
-                                </div>
+                                <p>Finalizada</p>
                             </div>
                         </div>
                     </div>
                 `;
                 }
-                
             });
         } catch (error) {
             console.error(error);
         }
-        const datos = await getProducts()
-        seleccion(datos)
+        
     }
 }
 
-customElements.define("cards-tareas", tareasAsignadas);
+customElements.define("cards-tareas-realizadas", tareasRealizadas);

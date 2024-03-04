@@ -36,12 +36,12 @@ const postProduct = (datos) =>{
     })
 
 }
-const putProduct = (datos,id, ind) =>{
+const putProduct = (datos, id) =>{
     fetch(`${URL_API}/${id}`,
 	{
 		method: "PUT",
 		headers: myHeaders,
-		body:JSON.stringify(datos[ind])
+		body:JSON.stringify(datos)
 	}
     ).then(res=>{
         return res.json()

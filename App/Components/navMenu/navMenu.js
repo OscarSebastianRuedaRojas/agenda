@@ -10,7 +10,7 @@ export class navMenu extends HTMLElement{
         </style>
         <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Agenda</a>
+            <a class="navbar-brand nav-link" href="#" data-verocultar='["a"]'>Agenda</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +23,7 @@ export class navMenu extends HTMLElement{
                     <a class="nav-link" href="#" data-verocultar='["v"]'>Tareas Realizadas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" data-verocultar='["p"]'>Tareas Fallidas</a>
+                  <a class="nav-link" href="#" data-verocultar='["f"]'>Tareas Fallidas</a>
                 </li>
                 </ul>
             </div>
@@ -36,12 +36,17 @@ export class navMenu extends HTMLElement{
                 let mainContent = document.querySelector('#mainContent');
                 mainContent.innerHTML= "";
                 switch (data[0]){
+                    case 'a':
+                        mainContent.innerHTML= "<cards-tareas></cards-tareas>";
+                        break;
                     case 'c':
                         mainContent.innerHTML= "<registro-tarea></registro-tarea>";
                         break;
                     case 'v':
-                        mainContent.innerHTML= "";
+                        mainContent.innerHTML= "<cards-tareas-realizadas></cards-tareas-realizadas>";
                         break;
+                    case 'f':
+                        mainContent.innerHTML= "<cards-tareas-fallidas></cards-tareas-fallidas>"
                 }
                 e.stopImmediatePropagation();
                 e.preventDefault();

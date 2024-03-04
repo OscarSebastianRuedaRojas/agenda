@@ -7,7 +7,7 @@
       "fechaFinal": "2024-03-08",
       "Responsable": "Sebastian Rueda",
       "dificultad": "dificil",
-      "seleccion": true
+      "seleccion": "Pendiente"
     },
     {
       "id": "8c02",
@@ -16,7 +16,178 @@
       "fechaFinal": "2024-03-07",
       "Responsable": "Sebastian Rueda",
       "dificultad": "mediano",
+      "seleccion": false
+    },
+    {
+      "id": "0e1f",
+      "nombreTarea": "Sacar al perro",
+      "fechaInicio": "2024-03-04",
+      "fechaFinal": "2024-03-04",
+      "Responsable": "Felipe",
+      "dificultad": "facil",
       "seleccion": true
+    },
+    {
+      "id": "ca5a",
+      "nombreTarea": "Proyecto Python",
+      "fechaInicio": "2024-03-04",
+      "fechaFinal": "2024-03-05",
+      "Responsable": "Sebastian Rueda",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "e3b6",
+      "nombreTarea": "Hacer compras",
+      "fechaInicio": "2024-03-05",
+      "fechaFinal": "2024-03-05",
+      "Responsable": "Ana",
+      "dificultad": "facil",
+      "seleccion": false
+    },
+    {
+      "id": "a9f8",
+      "nombreTarea": "Limpiar la casa",
+      "fechaInicio": "2024-03-05",
+      "fechaFinal": "2024-03-06",
+      "Responsable": "Carlos",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "7d1c",
+      "nombreTarea": "Estudiar para el examen",
+      "fechaInicio": "2024-03-05",
+      "fechaFinal": "2024-03-07",
+      "Responsable": "María",
+      "dificultad": "dificil",
+      "seleccion": "Pendiente"
+    },
+    {
+      "id": "b4e7",
+      "nombreTarea": "Reparar el coche",
+      "fechaInicio": "2024-03-06",
+      "fechaFinal": "2024-03-08",
+      "Responsable": "Juan",
+      "dificultad": "dificil",
+      "seleccion": true
+    },
+    {
+      "id": "f5c0",
+      "nombreTarea": "Preparar la presentación",
+      "fechaInicio": "2024-03-06",
+      "fechaFinal": "2024-03-07",
+      "Responsable": "Laura",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "27d8",
+      "nombreTarea": "Enviar correos",
+      "fechaInicio": "2024-03-06",
+      "fechaFinal": "2024-03-06",
+      "Responsable": "Pedro",
+      "dificultad": "facil",
+      "seleccion": false
+    },
+    {
+      "id": "84b2",
+      "nombreTarea": "Organizar la fiesta",
+      "fechaInicio": "2024-03-07",
+      "fechaFinal": "2024-03-09",
+      "Responsable": "Ana",
+      "dificultad": "dificil",
+      "seleccion": "Pendiente"
+    },
+    {
+      "id": "6a99",
+      "nombreTarea": "Resolver los problemas de matemáticas",
+      "fechaInicio": "2024-03-07",
+      "fechaFinal": "2024-03-08",
+      "Responsable": "Carlos",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "31e5",
+      "nombreTarea": "Hacer ejercicio",
+      "fechaInicio": "2024-03-07",
+      "fechaFinal": "2024-03-07",
+      "Responsable": "Laura",
+      "dificultad": "facil",
+      "seleccion": false
+    },
+    {
+      "id": "a4d3",
+      "nombreTarea": "Lavar la ropa",
+      "fechaInicio": "2024-03-08",
+      "fechaFinal": "2024-03-09",
+      "Responsable": "Pedro",
+      "dificultad": "facil",
+      "seleccion": true
+    },
+    {
+      "id": "5c2f",
+      "nombreTarea": "Terminar el informe",
+      "fechaInicio": "2024-03-08",
+      "fechaFinal": "2024-03-10",
+      "Responsable": "María",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "b9e0",
+      "nombreTarea": "Cocinar la cena",
+      "fechaInicio": "2024-03-08",
+      "fechaFinal": "2024-03-08",
+      "Responsable": "Juan",
+      "dificultad": "facil",
+      "seleccion": false
+    },
+    {
+      "id": "74a7",
+      "nombreTarea": "Revisar el contrato",
+      "fechaInicio": "2024-03-09",
+      "fechaFinal": "2024-03-10",
+      "Responsable": "Sebastian Rueda",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "e8f6",
+      "nombreTarea": "Planificar el viaje",
+      "fechaInicio": "2024-03-09",
+      "fechaFinal": "2024-03-11",
+      "Responsable": "Laura",
+      "dificultad": "dificil",
+      "seleccion": "Pendiente"
+    },
+    {
+      "id": "3b14",
+      "nombreTarea": "Ordenar el escritorio",
+      "fechaInicio": "2024-03-09",
+      "fechaFinal": "2024-03-09",
+      "Responsable": "Ana",
+      "dificultad": "facil",
+      "seleccion": true
+    },
+    {
+      "id": "c5a9",
+      "nombreTarea": "Resolver el bug en el código",
+      "fechaInicio": "2024-03-10",
+      "fechaFinal": "2024-03-11",
+      "Responsable": "Pedro",
+      "dificultad": "mediano",
+      "seleccion": true
+    },
+    {
+      "id": "8f7c",
+      "nombreTarea": "Comprar regalos de cumpleaños",
+      "fechaInicio": "2024-03-10",
+      "fechaFinal": "2024-03-12",
+      "Responsable": "María",
+      "dificultad": "dificil",
+      "seleccion": "Pendiente"
     }
   ]
 }

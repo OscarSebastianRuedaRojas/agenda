@@ -61,6 +61,7 @@ export class registro extends HTMLElement{
         const frmRegistro = document.querySelector('#frmTarea');
         document.querySelector('#btnGuardar').addEventListener("click", (e) =>{
             const datos = Object.fromEntries(new FormData(frmRegistro).entries());
+            datos["seleccion"] = 'Pendiente'
             postProducts(datos);
             e.stopImmediatePropagation();
             e.preventDefault();
