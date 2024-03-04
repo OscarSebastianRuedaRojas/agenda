@@ -8,6 +8,15 @@
       "Responsable": "Sebastian Rueda",
       "dificultad": "dificil",
       "seleccion": true
+    },
+    {
+      "id": "8c02",
+      "nombreTarea": "Pagina Perfumes",
+      "fechaInicio": "2024-03-04",
+      "fechaFinal": "2024-03-07",
+      "Responsable": "Sebastian Rueda",
+      "dificultad": "mediano",
+      "seleccion": true
     }
   ]
 }

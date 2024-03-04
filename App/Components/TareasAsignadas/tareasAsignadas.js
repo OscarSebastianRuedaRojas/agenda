@@ -43,8 +43,8 @@ export class tareasAsignadas extends HTMLElement {
                             </div>
                             <div class="col">
                                 <div class="cajitaIconos">
-                                    <i class='bx bxs-check-square acabada' id = ${tarea.nombreTarea}></i>
-                                    <i class='bx bxs-checkbox-minus fallida' id = ${tarea.nombreTarea}></i>
+                                    <i class='bx bxs-check-square acabada' id = ${tarea.id}></i>
+                                    <i class='bx bxs-checkbox-minus fallida' id = ${tarea.id}></i>
                                 </div>
                             </div>
                         </div>
