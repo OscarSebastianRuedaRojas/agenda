@@ -1,5 +1,5 @@
 import { getProducts } from '../../../Apis/tareas/tareasApi.js';
-
+import {seleccion} from "/App/Components/clasificacion/clasificacion.js"
 export class tareasAsignadas extends HTMLElement {
     constructor() {
         super();
@@ -43,8 +43,8 @@ export class tareasAsignadas extends HTMLElement {
                             </div>
                             <div class="col">
                                 <div class="cajitaIconos">
-                                    <i class='bx bxs-check-square acabada'></i>
-                                    <i class='bx bxs-checkbox-minus fallida' ></i>
+                                    <i class='bx bxs-check-square acabada' id = ${tarea.nombreTarea}></i>
+                                    <i class='bx bxs-checkbox-minus fallida' id = ${tarea.nombreTarea}></i>
                                 </div>
                             </div>
                         </div>
@@ -54,6 +54,8 @@ export class tareasAsignadas extends HTMLElement {
         } catch (error) {
             console.error(error);
         }
+        const datos = await getProducts()
+        seleccion(datos)
     }
 }
 

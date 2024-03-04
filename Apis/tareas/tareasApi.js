@@ -36,7 +36,23 @@ const postProduct = (datos) =>{
     })
 
 }
+const putProduct = (datos,id, ind) =>{
+    fetch(`${URL_API}/${id}`,
+	{
+		method: "PUT",
+		headers: myHeaders,
+		body:JSON.stringify(datos[ind])
+	}
+    ).then(res=>{
+        return res.json()
+    }).then(res=>{
+        //idUser=res.id;
+    }).catch(err=>{
+        console.log(err);
+    })
+}
 export {
     getProduct as getProducts,
-    postProduct as postProducts
+    postProduct as postProducts,
+    putProduct as putProducts
 };
