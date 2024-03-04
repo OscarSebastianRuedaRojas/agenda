@@ -2,23 +2,23 @@ const URL_API = "http://localhost:3000/tareas";
 const myHeaders = new Headers({
     "Content-Type": "application/json"
 });
-const getProduct = async() => {
+
+const getProduct = async () => {
     try {
-        const respuesta = await fetch(`${URL_API}`);
-		if(respuesta.status === 200){
-			const datos = await respuesta.json();
-            viewDataHtml(datos);
-		} else if(respuesta.status === 401){
-            console.log('La url no es correcta');
-		} else if(respuesta.status === 404){
+        const respuesta = await fetch(URL_API);
+        if (respuesta.ok) {
+            const datos = await respuesta.json();
+            return datos;
+        } else if (respuesta.status === 401) {
+            console.log('La URL no es correcta');
+        } else if (respuesta.status === 404) {
             console.log('El producto que buscas no existe');
-		} else {
-            console.log('Se presento un error en la peticion consulte al Administrador');
-		} 
-	} catch(error){
+        } else {
+            console.log('Se presentó un error en la petición, consulte al Administrador');
+        }
+    } catch (error) {
         console.log(error);
-	}
-    
+    }
 }
 const postProduct = (datos) =>{
 

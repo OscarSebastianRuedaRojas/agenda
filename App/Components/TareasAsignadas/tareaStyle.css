@@ -1,0 +1,17 @@
+.card{
+    margin: 1rem 0rem;
+}
+.cajitaIconos{
+    display: flex;
+    flex-direction: row;
+}
+.cajitaIconos .bx{
+    font-size: 4.5rem;
+    cursor: pointer;
+}
+.cajitaIconos .acabada{
+    color: green;
+}
+.cajitaIconos .fallida{
+    color: red;
+}

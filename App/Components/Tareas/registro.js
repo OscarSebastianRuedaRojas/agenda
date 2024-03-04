@@ -1,4 +1,3 @@
-import {getProducts} from '../../../Apis/tareas/tareasApi.js';
 import {postProducts} from '../../../Apis/tareas/tareasApi.js';
 export class registro extends HTMLElement{
     constructor() {
