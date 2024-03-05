@@ -1,0 +1,7 @@
+.card{
+    box-shadow: 2px 2px 6px green;
+    margin: 1rem 0rem;
+}
+.card p{
+    font-size: 1.5rem;
+}

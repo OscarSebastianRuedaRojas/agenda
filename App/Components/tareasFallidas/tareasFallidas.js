@@ -10,6 +10,9 @@ export class tareasFallidas extends HTMLElement {
             datos.forEach(tarea => {
                 if(tarea?.seleccion===false){
                     this.innerHTML += /* HTML */`
+                    <style rel="stylesheet">
+                        @import "App/Components/tareasFallidas/tareasFalidas.css";
+                    </style>
                     <div class="card">
                         <div class="row">
                             <div class="col">

@@ -10,6 +10,9 @@ export class tareasRealizadas extends HTMLElement {
             datos.forEach(tarea => {
                 if(tarea?.seleccion===true){
                     this.innerHTML += /* HTML */`
+                    <style rel="stylesheet">
+                        @import "App/Components/tareasRealizadas.js/tareasRealizadas.css";
+                    </style>
                     <div class="card">
                         <div class="row">
                             <div class="col">
